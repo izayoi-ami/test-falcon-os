@@ -7,4 +7,4 @@ class HelloWorld():
         resp.body = 'Hello World.\n'
 
 api = application = falcon.API()
-api.add_route('/', HelloWorld)
+api.add_route('/', HelloWorld())
