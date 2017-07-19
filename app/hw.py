@@ -6,5 +6,5 @@ class HelloWorld():
         resp.status = falcon.HTTP_200
         resp.body = 'Hello World.\n'
 
-app = falcon.API()
-app.add_route('/', HelloWorld)
+api = application = falcon.API()
+api.add_route('/', HelloWorld)

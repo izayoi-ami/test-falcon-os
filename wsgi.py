@@ -1,1 +1,1 @@
-from app.hw import api as application
+from app.hw import application
